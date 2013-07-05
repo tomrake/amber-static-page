@@ -26,3 +26,14 @@ The basic html file:
   </body>
 </html>
 ````
+
+
+```smalltalk
+begin
+	self appendToJQuery: 'body' asJQuery
+````
+
+```smalltalk
+renderOn: html
+	html h2: 'Hello World!!'
+````

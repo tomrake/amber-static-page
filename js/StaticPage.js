@@ -3,7 +3,7 @@ smalltalk.addClass('StaticPage', smalltalk.Widget, [], 'StaticPage');
 smalltalk.addMethod(
 smalltalk.method({
 selector: "begin",
-category: 'as yet unclassified',
+category: 'execution',
 fn: function (){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
@@ -19,7 +19,7 @@ smalltalk.StaticPage);
 smalltalk.addMethod(
 smalltalk.method({
 selector: "renderOn:",
-category: 'as yet unclassified',
+category: 'rendering',
 fn: function (html){
 var self=this;
 return smalltalk.withContext(function($ctx1) { 
